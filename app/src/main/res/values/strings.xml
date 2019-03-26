@@ -1,3 +1,36 @@
 <resources>
+
+    <!--Main-->
     <string name="app_name">Boilerplate</string>
+
+    <!--Util-->
+    <string name="msg_network_connection_error">No Internet connection</string>
+    <string name="msg_page_not_found">404 Page not found</string>
+    <string name="msg_unknown_error">Unknown error</string>
+    <string name="msg_bad_request">Bad request</string>
+    <string name="msg_not_authorized">User not authorized</string>
+    <string name="msg_connection_error">Connection error</string>
+    <string name="msg_navigation_drawer_open">Open navigation drawer</string>
+    <string name="msg_navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Auth screen strings-->
+    <string name="text_btn_auth_sign">Login</string>
+    <string name="text_welcome">Welcome to \'Boilerplate\' app. \nPlease, login with any fake credentials to proceed</string>
+
+    <!--Navigation drawer menu items-->
+    <string name="text_one">First item</string>
+    <string name="text_two">Second item</string>
+    <string name="text_three">Third item</string>
+    <string name="text_four">Fourth item</string>
+    <string name="text_five">Fifth item</string>
+    <string name="text_six">Logout</string>
+
+    <!--Auth screen edt hints-->
+    <string name="hint_tiet_auth_email">Email</string>
+    <string name="hint_tiet_auth_pass">Password</string>
+
+    <!--Edt errors-->
+    <string name="msg_edt_error_mail">Enter email</string>
+    <string name="msg_edt_pass_error">Enter password</string>
+
 </resources>

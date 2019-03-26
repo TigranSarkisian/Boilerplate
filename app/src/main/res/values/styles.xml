@@ -1,11 +1,46 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/color_0072be</item>
+        <item name="colorPrimary">@color/color_0099ff</item>
+        <item name="colorAccent">@color/color_e64f72</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
     </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+    </style>
+
+    <style name="MainTheme" parent="BaseTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="BaseTheme">
+        <item name="android:windowBackground">@drawable/layer_splash</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/color_0072be</item>
+        <item name="colorPrimary">@color/color_0099ff</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimaryDark">@color/color_0072be</item>
+        <item name="colorPrimary">@color/color_0099ff</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/color_0099ff</item>
+    </style>
+
+    <style name="EditText" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
 
 </resources>
