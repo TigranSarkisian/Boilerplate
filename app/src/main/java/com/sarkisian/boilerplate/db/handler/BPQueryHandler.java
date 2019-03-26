@@ -13,15 +13,7 @@ import java.util.ArrayList;
 
 public class BPQueryHandler {
 
-    // ===========================================================
-    // Constants
-    // ===========================================================
-
     private final static String LOG_TAG = BPQueryHandler.class.getSimpleName();
-
-    // ===========================================================
-    // Methods
-    // ===========================================================
 
     public synchronized static void addUser(Context context, User user) {
         context.getContentResolver().insert(
