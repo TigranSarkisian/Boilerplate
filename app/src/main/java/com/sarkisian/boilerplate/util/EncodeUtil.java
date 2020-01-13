@@ -58,6 +58,7 @@ public class EncodeUtil {
                     break;
             }
         }
+
         return sb.toString();
     }
 
@@ -121,6 +122,7 @@ public class EncodeUtil {
                     break;
             }
         }
+
         return sb.toString();
     }
 

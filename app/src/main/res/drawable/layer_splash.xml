@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:drawable="@color/color_0099ff"/>
+    <item android:drawable="@color/color_0099ff" />
 
     <item>
 
         <bitmap
             android:gravity="center"
-            android:src="@drawable/img_android_logo"/>
+            android:src="@drawable/img_android_logo" />
     </item>
 
 </layer-list>

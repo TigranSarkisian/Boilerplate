@@ -12,44 +12,40 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <service
-            android:name=".sync.service.BPIntentService"/>
+        <service android:name=".sync.service.BPIntentService" />
 
-        <service
-            android:name=".sync.service.BPService"/>
+        <service android:name=".sync.service.BPService" />
 
-        <service
-            android:name=".sync.service.BPExecutorService"/>
+        <service android:name=".sync.service.BPExecutorService" />
 
-        <service
-            android:name=".sync.service.BPThreadPoolExecutorService"/>
+        <service android:name=".sync.service.BPThreadPoolExecutorService" />
 
         <provider
             android:name=".db.provider.BPProvider"
-            android:authorities="${applicationId}"/>
+            android:authorities="${applicationId}" />
 
         <activity
             android:name=".ui.activity.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/SplashTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
             android:name=".ui.activity.MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/MainTheme"/>
+            android:theme="@style/MainTheme" />
 
         <activity
             android:name=".ui.activity.AuthActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
 
         <meta-data
             android:name="preloaded_fonts"
-            android:resource="@array/preloaded_fonts"/>
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 

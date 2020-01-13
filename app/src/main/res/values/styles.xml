@@ -8,8 +8,7 @@
         <item name="alertDialogTheme">@style/AlertDialog</item>
     </style>
 
-    <style name="AppTheme" parent="BaseTheme">
-    </style>
+    <style name="AppTheme" parent="BaseTheme"></style>
 
     <style name="MainTheme" parent="BaseTheme">
         <item name="windowActionBar">false</item>

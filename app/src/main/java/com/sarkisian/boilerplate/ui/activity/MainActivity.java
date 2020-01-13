@@ -161,8 +161,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,
     }
 
     private void findViews() {
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.dl_main);
-        mNavigationView = (NavigationView) findViewById(R.id.nav_main);
+        mDrawerLayout = findViewById(R.id.dl_main);
+        mNavigationView = findViewById(R.id.nav_main);
     }
 
     private void customizeActionBar() {
@@ -181,7 +181,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener,
     }
 
     private void openScreen(Fragment fragment, boolean addToBackStack, @IdRes int menuItem) {
-
         mNavigationView.getMenu().findItem(menuItem).setChecked(true);
 
         FragmentTransactionManager.displayFragment(

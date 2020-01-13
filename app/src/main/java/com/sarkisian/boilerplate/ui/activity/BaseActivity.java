@@ -34,10 +34,10 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected abstract int getLayoutResource();
 
     private void findViews() {
-        mToolbar = (Toolbar) findViewById(R.id.tb);
+        mToolbar = findViewById(R.id.tb);
         if (mToolbar != null) {
-            mTvToolbarTitle = (TextView) mToolbar.findViewById(R.id.tv_toolbar_title);
-            mTvSubToolbarTitle = (TextView) mToolbar.findViewById(R.id.tv_toolbar_subtitle);
+            mTvToolbarTitle = mToolbar.findViewById(R.id.tv_toolbar_title);
+            mTvSubToolbarTitle = mToolbar.findViewById(R.id.tv_toolbar_subtitle);
         }
     }
 

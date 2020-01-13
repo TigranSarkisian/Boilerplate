@@ -15,6 +15,7 @@ public class BusProvider {
 
     private static final EventBus BUS = new AsyncEventBus(new Executor() {
         private Handler handler;
+
         @Override
         public void execute(@NonNull Runnable command) {
             if (handler == null) {

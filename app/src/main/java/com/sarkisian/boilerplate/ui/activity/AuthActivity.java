@@ -76,7 +76,6 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener {
         DialogManager.getInstance().dismissPreloader(this.getClass());
 
         switch (event.getEventType()) {
-
             case Event.EventType.Api.LOGIN_COMPLETED:
                 Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
@@ -128,11 +127,11 @@ public class AuthActivity extends BaseActivity implements View.OnClickListener {
     }
 
     private void findViews() {
-        mTilEmail = (TextInputLayout) findViewById(R.id.til_auth_email);
-        mTietEmail = (TextInputEditText) findViewById(R.id.tiet_auth_email);
-        mTilPass = (TextInputLayout) findViewById(R.id.til_auth_pass);
-        mTietPass = (TextInputEditText) findViewById(R.id.tiet_auth_pass);
-        mBtnSign = (Button) findViewById(R.id.btn_auth_sign);
+        mTilEmail = findViewById(R.id.til_auth_email);
+        mTietEmail = findViewById(R.id.tiet_auth_email);
+        mTilPass = findViewById(R.id.til_auth_pass);
+        mTietPass = findViewById(R.id.tiet_auth_pass);
+        mBtnSign = findViewById(R.id.btn_auth_sign);
     }
 
     private void grabDataAndSingIn(String mail, String pass) {
